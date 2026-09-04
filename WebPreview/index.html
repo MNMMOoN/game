@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#061827">
+  <title>WaddleRush — Browser Preview</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" aria-label="WaddleRush game"></canvas>
+    <section id="menu" class="panel">
+      <div class="penguin">🐧</div>
+      <h1>WADDLE<br><span>RUSH</span></h1>
+      <p>Offline browser preview</p>
+      <button id="play">PLAY</button>
+      <small>Drag or point to steer · Hold BOOST to dash</small>
+    </section>
+    <section id="hud" hidden>
+      <div id="stats"></div><div id="board"></div>
+      <button id="boost">BOOST</button>
+      <div id="hint">DRAG ANYWHERE TO STEER</div>
+    </section>
+    <section id="results" class="panel" hidden>
+      <h2>RESULTS</h2><div id="summary"></div>
+      <button id="again">PLAY AGAIN</button><button id="home" class="quiet">HOME</button>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
