@@ -1,0 +1,6 @@
+{
+  "name": "WaddleRush.Runtime",
+  "rootNamespace": "WaddleRush",
+  "references": ["Unity.ugui"],
+  "autoReferenced": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "WaddleRush.Tests",
+  "rootNamespace": "WaddleRush.Tests",
+  "references": ["WaddleRush.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": ["Editor"]
+}

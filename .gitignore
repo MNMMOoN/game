@@ -1,0 +1,17 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+Builds/*
+!Builds/.gitkeep
+*.csproj
+*.sln
+*.user
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+Assets/Generated/
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "name": "WaddleRush.Editor",
+  "rootNamespace": "WaddleRush.Editor",
+  "references": ["WaddleRush.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
